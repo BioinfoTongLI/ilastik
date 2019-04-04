@@ -211,7 +211,7 @@ class TestPixelClassificationHeadless(object):
         #args.append( "--sys_tmp_dir=/tmp" )
  
         # Batch export options
-        args.append( '--export_source=Simple Segmentation' )
+        args.append( '--export_source=Simple_Segmentation' )
         args.append( '--output_format=png sequence' ) # If we were actually launching from the command line, 'png sequence' would be in quotes...
         args.append( "--output_filename_format={dataset_dir}/{nickname}_segmentation_z{slice_index}.png" )
         args.append( "--export_dtype=uint8" )
@@ -269,7 +269,7 @@ class TestPixelClassificationHeadless(object):
         args.append("--headless")
 
         # Batch export options
-        args.append("--export_source=Simple Segmentation")
+        args.append("--export_source=Simple_Segmentation")
         args.append("--output_internal_path=volume/segm_volume")
         args.append("--output_format=hdf5")
         args.append("--output_filename_format={dataset_dir}/{nickname}_segm.h5")

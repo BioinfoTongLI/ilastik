@@ -254,7 +254,7 @@ class TestAxesOrderPreservation(object):
         # If we were actually launching from the command line, 'png sequence'
         # would be in quotes...
         # args.append('--output_format=png sequence')
-        args.append("--export_source=Simple Segmentation")
+        args.append("--export_source=Simple_Segmentation")
         args.append(
             "--output_filename_format=" + output_path)
         args.append(

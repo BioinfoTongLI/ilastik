@@ -55,7 +55,7 @@ class NewAutocontextWorkflowBase(Workflow):
     
     # First export names must match these for the export GUI, because we re-use the ordinary PC gui
     # (See PixelClassificationDataExportGui.)
-    EXPORT_NAMES_PER_STAGE = ['Probabilities', 'Simple Segmentation', 'Uncertainty', 'Features', 'Labels', 'Input']
+    EXPORT_NAMES_PER_STAGE = ['Probabilities', 'Simple_Segmentation', 'Uncertainty', 'Features', 'Labels', 'Input']
     
     @property
     def applets(self):

@@ -48,7 +48,7 @@ class PixelClassificationWorkflow(Workflow):
     DATA_ROLE_RAW = 0
     DATA_ROLE_PREDICTION_MASK = 1
     ROLE_NAMES = ['Raw Data', 'Prediction Mask']
-    EXPORT_NAMES = ['Probabilities', 'Simple Segmentation', 'Uncertainty', 'Features', 'Labels']
+    EXPORT_NAMES = ['Probabilities', 'Simple_Segmentation', 'Uncertainty', 'Features', 'Labels']
 
     @property
     def applets(self):
